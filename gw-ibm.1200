@@ -40,7 +40,7 @@ function extract
 	mkdir -p "$name-files"
 
 	# Extract recursively
-	mcopy -i $img -s -p :: "$name-files"
+	mcopy -i "$img" -s -p :: "$name-files"
 }
 
 
